@@ -1,0 +1,101 @@
+my_text = "Python Java C++"
+my_text = my_text.split()
+print(my_text)
+
+my_text = "Hello, World"
+my_text = my_text.upper()
+print(my_text)
+
+my_text = "I have an apple, you have an apple"
+orange = "orange"
+my_text = my_text.replace("apple", orange)
+print(my_text)
+
+my_text = "    I have an apple, you have an apple.    "
+my_text = my_text.strip() # removes the spaces in the text above
+print(my_text)
+
+
+my_text = "Bananas are a great source of Potassium"
+my_text = my_text.count("a")
+print(my_text)
+
+my_text = "Bananas are great source of Potassium"
+my_text = len(my_text)
+print(my_text)
+
+my_first_text = "It is "
+my_second_text = "3"
+my_third_text = " hrs long "
+result = my_first_text + my_second_text + my_third_text
+print(result)
+
+x = "Serfiraz"
+y = 12
+z = 4.2
+print(type(x))
+print(type(y))
+print(type(z))
+result = y + z
+print(result)
+print(type(result))
+result = y + int(z)
+print(result)
+print(type(result))
+result = z + float(y)
+print(result)
+print(type(result))
+result = z
+print(result)
+print(type(str(z)))
+print()
+result = x + str(y) + str(z)
+print(result)
+print(type(result))
+print()
+
+
+x = ord("A")
+print(x)
+y = chr(67)
+print(y)
+
+c1 = chr(83)
+c2 = chr(101)
+c3 = chr(114)
+c4 = chr(102)
+c5 = chr(105)
+c6 = chr(114)
+c7 = chr(97)
+c8 = chr(122)
+print()
+print(c1 + c2 + c3 + c4 + c5 + c6 + c7 + c8) # prints my name
+
+print("\U0001F600")
+
+x = [1, 2, 3]
+print(dir(x))
+print(help(len))
+
+x = 10
+x = 14
+print(x)
+print()
+
+a = "Hello, I am here"
+a = "Please"
+print(a)
+
+x = 5
+result = 5 / 2
+print(f"result = {result} it is not an even number")
+
+x = 6
+result = 6 / 2
+print(f"result = {result} it is an even number")
+
+x = 1
+print(dir(x))
+print(help(round))
+
+
